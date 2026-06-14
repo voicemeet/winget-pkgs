@@ -1,0 +1,195 @@
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: VoiceMeet.VoiceMeet
+PackageVersion: 0.0.7.8
+Platform:
+  - Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: wix
+Scope: machine
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+UpgradeBehavior: install
+ReleaseDate: 2026-06-13
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-x64-de-DE.msi
+    InstallerSha256: FB0B4487447B841B7A502982E1A51CE0FF1241D9C67A7F183B4A5B8176BF7BB6
+    InstallerLocale: de-DE
+    ProductCode: '{9FED04CF-79DC-4252-AF43-406F44B3CCBD}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{9FED04CF-79DC-4252-AF43-406F44B3CCBD}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: arm64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-arm64-de-DE.msi
+    InstallerSha256: D89EFA0B4AF3D7ED4492B07F5945637F5D502E48E14A0F9C444F8120356DCB03
+    InstallerLocale: de-DE
+    ProductCode: '{8787B2FE-D0B7-4EF3-8A9E-98D9DE04CB33}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{8787B2FE-D0B7-4EF3-8A9E-98D9DE04CB33}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: x64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-x64-en-US.msi
+    InstallerSha256: 27AAC583BB39A1D91B939B8413C303B233D614A7AAD768C07E0CAD22A314E8D7
+    InstallerLocale: en-US
+    ProductCode: '{566FE57D-C663-4F76-8150-E201B5165FC8}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{566FE57D-C663-4F76-8150-E201B5165FC8}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: arm64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-arm64-en-US.msi
+    InstallerSha256: 7C64BA7AF3DB26954789304214585F17F2065BAE8BF412E1C7CE9F527A13F060
+    InstallerLocale: en-US
+    ProductCode: '{28C4E325-525B-49D0-A989-D375506E75D1}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{28C4E325-525B-49D0-A989-D375506E75D1}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: x64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-x64-es-ES.msi
+    InstallerSha256: 55A0A61605918BB515B44004A9B254209B24797EF196EA37196D45A9157257EA
+    InstallerLocale: es-ES
+    ProductCode: '{8EA866DE-E27B-4A91-B279-10C723F62ED3}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{8EA866DE-E27B-4A91-B279-10C723F62ED3}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: arm64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-arm64-es-ES.msi
+    InstallerSha256: 333FB8A22B92EC237B3A6E7A5D615D328D57E2C9536478EC52FD815F061ED2D6
+    InstallerLocale: es-ES
+    ProductCode: '{121CF722-608C-4BAE-A34E-4B09C4231001}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{121CF722-608C-4BAE-A34E-4B09C4231001}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: x64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-x64-fr-FR.msi
+    InstallerSha256: 7B6C5A68587B9BA9DC6B99F1F2BFD0AD1D3E1F3A6197F5EC38ADFC75784CE548
+    InstallerLocale: fr-FR
+    ProductCode: '{406249AA-5A5E-4756-9C58-1F53CD3DB289}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{406249AA-5A5E-4756-9C58-1F53CD3DB289}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: arm64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-arm64-fr-FR.msi
+    InstallerSha256: 71DABA1DDFBAF3EEC324499632D5328DF4E8EF81660BD01A8CEF4B2FBD17FA9B
+    InstallerLocale: fr-FR
+    ProductCode: '{C6349491-DB70-4103-9C7A-DB144B7A2D24}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{C6349491-DB70-4103-9C7A-DB144B7A2D24}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: x64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-x64-ja-JP.msi
+    InstallerSha256: 1CF2EAF1B223F5440907BE5630161EDA91822E6176C22AFBE5BF33065D41740E
+    InstallerLocale: ja-JP
+    ProductCode: '{5DD0FCF5-4AA2-4881-887B-6158218FE80C}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{5DD0FCF5-4AA2-4881-887B-6158218FE80C}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: arm64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-arm64-ja-JP.msi
+    InstallerSha256: D76F025E16E5FD12EB86B700C90318EE947136F452BF93ABDC28F5D862186E0A
+    InstallerLocale: ja-JP
+    ProductCode: '{35E8D7CC-A580-44AA-A6CB-B19D5E698594}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{35E8D7CC-A580-44AA-A6CB-B19D5E698594}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: x64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-x64-ko-KR.msi
+    InstallerSha256: 96A03CBFE9813444F2480D947268C475C47ADDC86A367E2685C5C5340E1E14C8
+    InstallerLocale: ko-KR
+    ProductCode: '{41957EDA-68BD-4F86-AE77-A547AE222266}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{41957EDA-68BD-4F86-AE77-A547AE222266}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: arm64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-arm64-ko-KR.msi
+    InstallerSha256: 8CD5ADDB01E5C1560398FD4BCC6855B63BECAB4DAA404CE5E7B261DAEB4BF3F5
+    InstallerLocale: ko-KR
+    ProductCode: '{8BFEF185-BF2B-4EE0-A7B6-E62C6D040390}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{8BFEF185-BF2B-4EE0-A7B6-E62C6D040390}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: x64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-x64-pt-BR.msi
+    InstallerSha256: 45983D2C11C8B16FA34B5409F20865700565A45171774ADB02521C227FA6C9AD
+    InstallerLocale: pt-BR
+    ProductCode: '{4A68070F-467C-45ED-B0CB-D94CE964A560}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{4A68070F-467C-45ED-B0CB-D94CE964A560}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: arm64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-arm64-pt-BR.msi
+    InstallerSha256: 84414C6905AC4C3B9C32ED2F2AC3097BA6AF64E0E3CCDEF44506DC196AA95133
+    InstallerLocale: pt-BR
+    ProductCode: '{72A54353-AC3C-42A9-98A6-6BFC4A9A1BF3}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{72A54353-AC3C-42A9-98A6-6BFC4A9A1BF3}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: x64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-x64-pt-PT.msi
+    InstallerSha256: 80EC4A8434842A0C91213DE31A3FB0E5805820BCF9157AA09B3897F8C5B1ED58
+    InstallerLocale: pt-PT
+    ProductCode: '{6006D4BD-8CE4-4E8E-9C45-D43938B4142B}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{6006D4BD-8CE4-4E8E-9C45-D43938B4142B}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: arm64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-arm64-pt-PT.msi
+    InstallerSha256: E6D1BC2F31DBA8E96F9ADD959E4B90E7A66278400B60AFB26C9999BFE37FE85D
+    InstallerLocale: pt-PT
+    ProductCode: '{7645796A-158C-4C8F-ABB0-9FA88D7EE498}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{7645796A-158C-4C8F-ABB0-9FA88D7EE498}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: x64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-x64-zh-CN.msi
+    InstallerSha256: 39C7276ECD2224BAF95FAB5774C137CE65D8B3FE1682F76A3B511724271BB6C9
+    InstallerLocale: zh-CN
+    ProductCode: '{823EC716-C97C-4B11-A345-FAB70B518097}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{823EC716-C97C-4B11-A345-FAB70B518097}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: arm64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-arm64-zh-CN.msi
+    InstallerSha256: 2033C9E2A3423D4039BC433C1D47321840E6D6657F253BC682FAAC590B688BDF
+    InstallerLocale: zh-CN
+    ProductCode: '{EEE9BB9B-5D84-4AA7-906A-A87D18B4098A}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{EEE9BB9B-5D84-4AA7-906A-A87D18B4098A}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: x64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-x64-zh-HK.msi
+    InstallerSha256: 2C8C0127DDCD446A04688A5241911606A6B70DB1D7124413F3B9ED3D9EA0A51F
+    InstallerLocale: zh-HK
+    ProductCode: '{0E1B8B43-63A8-4282-BB98-2A2FA5F69162}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{0E1B8B43-63A8-4282-BB98-2A2FA5F69162}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: arm64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-arm64-zh-HK.msi
+    InstallerSha256: F38B715748EE8870CC2CBBC6F516AE184897BDD04C84BBC978848D7854732BC4
+    InstallerLocale: zh-HK
+    ProductCode: '{8C6FA164-D9B6-48E6-9B47-837FDAE80038}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{8C6FA164-D9B6-48E6-9B47-837FDAE80038}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: x64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-x64-zh-TW.msi
+    InstallerSha256: 5E4D6B501C132ED7A2DEA5C8CC40B7456C494900262832538C3E04165E53330B
+    InstallerLocale: zh-TW
+    ProductCode: '{C259B1BD-6E1F-4184-A28B-29B96B408549}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{C259B1BD-6E1F-4184-A28B-29B96B408549}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+  - Architecture: arm64
+    InstallerUrl: https://github.com/voicemeet/app/releases/download/v0.0.7.8/voicemeet-0.0.7.8-windows-arm64-zh-TW.msi
+    InstallerSha256: 5B972E40BB51E7BE525E1E191E77E3791770A41ACBAF0AD0F970EC97D5DF4151
+    InstallerLocale: zh-TW
+    ProductCode: '{0656E155-E587-4F64-AE83-110901E450FD}'
+    AppsAndFeaturesEntries:
+      - ProductCode: '{0656E155-E587-4F64-AE83-110901E450FD}'
+        UpgradeCode: '{F4DF922E-5B61-4161-B9A8-81BECD24CC81}'
+ManifestType: installer
+ManifestVersion: 1.12.0

@@ -1,0 +1,38 @@
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
+
+PackageIdentifier: VoiceMeet.VoiceMeet
+PackageVersion: 0.0.7.8
+PackageLocale: ja-JP
+Publisher: VoiceMeet
+PublisherUrl: https://voicemeet.net
+PublisherSupportUrl: https://voicemeet.net/support
+PrivacyUrl: https://voicemeet.net/legal/privacy
+Author: kjxbyz
+PackageName: VoiceMeet
+PackageUrl: https://voicemeet.net
+License: GPL-3.0-only
+LicenseUrl: https://voicemeet.net/license
+Copyright: Copyright (c) 2025 VoiceMeet
+ShortDescription: 声を通じて世界と出会う。
+Description: |
+  VoiceMeet は、画面の壁を越え、声を通して本物のつながりを築くことができる、まったく新しい音声ベースのソーシャルアプリです。
+  
+  主な機能：
+  
+  - ボイスマッチング – あなたと合う声を見つけよう：リアルタイムの音声マッチングで、声だけで新しい友達と出会えます。
+  - ボイスルーム – いつでもどこでも自由にチャット：テーマ別のボイスルームに参加して、ゲーム、音楽、人間関係など、好きなことについて語り合いましょう。
+  - サウンド名刺 – 声であなたのストーリーを語ろう：短いボイスイントロを共有して、あなたの個性と温かさを伝えましょう。
+  - ウィスパーモード – 1対1のボイスチャット：低遅延で高品質なプライベート通話で、安全で親密な雰囲気を演出できます。
+  - サウンドフィルターと効果音 – 自分だけのサウンドを作ろう：ボイスエフェクトやフィルターを使って、自分だけのトーンやスタイルを演出できます。
+  - ダイナミックスクエア – 音の世界を探検しよう：ボイス投稿をスクロールして、他のユーザーと交流し、心に響くトピックを見つけましょう。
+  
+  新しい友達を作ったり、興味のあるトピックを探したり、心に響く声を見つけたり。VoiceMeet は、自由で温かく、魅力的な音声インタラクションの空間を提供します。
+  
+  今すぐ参加して、音声での旅を始めましょう！
+Tags:
+  - voicemeet
+  - social
+ReleaseNotesUrl: https://voicemeet.net/changelog
+ManifestType: locale
+ManifestVersion: 1.12.0

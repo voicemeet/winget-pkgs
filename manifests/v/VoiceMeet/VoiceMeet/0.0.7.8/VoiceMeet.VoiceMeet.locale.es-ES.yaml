@@ -1,0 +1,38 @@
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
+
+PackageIdentifier: VoiceMeet.VoiceMeet
+PackageVersion: 0.0.7.8
+PackageLocale: es-ES
+Publisher: VoiceMeet
+PublisherUrl: https://voicemeet.net
+PublisherSupportUrl: https://voicemeet.net/support
+PrivacyUrl: https://voicemeet.net/legal/privacy
+Author: kjxbyz
+PackageName: VoiceMeet
+PackageUrl: https://voicemeet.net
+License: GPL-3.0-only
+LicenseUrl: https://voicemeet.net/license
+Copyright: Copyright (c) 2025 VoiceMeet
+ShortDescription: Conozca el mundo a través de la voz.
+Description: |
+  VoiceMeet es una nueva app social de voz que te ayuda a romper la barrera de la pantalla y a crear conexiones auténticas a través de la voz.
+
+  Características principales:
+  
+  - Voz coincidente: Descubre voces con las que conectas: La coincidencia de voz en tiempo real te permite conocer nuevos amigos solo con tu voz.
+  - Salas de voz: Chatea libremente, cuando y donde quieras: Únete a salas de voz temáticas y habla de juegos, música, relaciones o cualquier tema que te guste.
+  - Tarjetas de voz: Deja que tu voz cuente tu historia: Comparte una breve introducción de voz para mostrar tu personalidad y calidez.
+  - Susurro privado: Chats de voz individuales: Llamadas privadas de baja latencia y alta calidad que te hacen sentir seguro e íntimo.
+  - Filtros de voz: Crea tu sonido único: Juega con efectos y filtros de voz para mejorar tu tono y estilo.
+  - Fuente de voz: Explora un mundo de sonidos: Explora publicaciones de voz, interactúa con otros y encuentra temas que te conecten.
+  
+  Ya sea que estés haciendo nuevos amigos, explorando temas de interés o descubriendo voces que te conectan, VoiceMeet crea un espacio gratuito, cálido y atractivo para la interacción vocal.
+  
+  ¡Únete ahora y comienza tu aventura vocal!
+Tags:
+  - voicemeet
+  - social
+ReleaseNotesUrl: https://voicemeet.net/changelog
+ManifestType: locale
+ManifestVersion: 1.12.0

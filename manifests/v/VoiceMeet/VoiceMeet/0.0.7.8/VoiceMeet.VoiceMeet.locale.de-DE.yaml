@@ -1,0 +1,38 @@
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
+
+PackageIdentifier: VoiceMeet.VoiceMeet
+PackageVersion: 0.0.7.8
+PackageLocale: de-DE
+Publisher: VoiceMeet
+PublisherUrl: https://voicemeet.net
+PublisherSupportUrl: https://voicemeet.net/support
+PrivacyUrl: https://voicemeet.net/legal/privacy
+Author: kjxbyz
+PackageName: VoiceMeet
+PackageUrl: https://voicemeet.net
+License: GPL-3.0-only
+LicenseUrl: https://voicemeet.net/license
+Copyright: Copyright (c) 2025 VoiceMeet
+ShortDescription: Begegne der Welt durch deine Stimme.
+Description: |
+  VoiceMeet ist eine brandneue, sprachbasierte Social-App, mit der du die Grenzen des Bildschirms überwinden und authentische Verbindungen per Stimme aufbauen kannst.
+
+  Hauptfunktionen:
+  
+  - Voice Match – Finde Stimmen, die zu dir passen: Dank Echtzeit-Stimmmatching triffst du neue Freunde nur mit deiner Stimme.
+  - Voice Rooms – Chatte jederzeit und überall: Tritt thematischen Voice Rooms bei und unterhalte dich über Spiele, Musik, Beziehungen oder alles, was dich interessiert.
+  - Voice Cards – Erzähle deine Geschichte mit deiner Stimme: Teile eine kurze Sprachvorstellung, um deine Persönlichkeit und dein Charisma zu zeigen.
+  - Privates Flüstern – Persönliche Sprachchats: Private Anrufe mit geringer Latenz und hoher Qualität für ein sicheres und vertrautes Gefühl.
+  - Voice Filter – Kreiere deinen einzigartigen Sound: Experimentiere mit Stimmeffekten und Filtern, um deinen Tonfall und Stil zu verbessern.
+  - Voice Feed – Entdecke eine Welt voller Klänge: Scrolle durch Sprachbeiträge, interagiere mit anderen und finde Themen, die dich ansprechen.
+  
+  Ob du neue Freunde finden, interessante Themen erkunden oder Stimmen entdecken möchtest, die dich ansprechen – VoiceMeet bietet einen kostenlosen, freundlichen und anregenden Raum für Sprachinteraktion.
+  
+  Melde dich jetzt an und starte deine Reise mit deiner Stimme!
+Tags:
+  - voicemeet
+  - social
+ReleaseNotesUrl: https://voicemeet.net/changelog
+ManifestType: locale
+ManifestVersion: 1.12.0

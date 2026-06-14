@@ -1,0 +1,38 @@
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
+
+PackageIdentifier: VoiceMeet.VoiceMeet
+PackageVersion: 0.0.7.8
+PackageLocale: fr-FR
+Publisher: VoiceMeet
+PublisherUrl: https://voicemeet.net
+PublisherSupportUrl: https://voicemeet.net/support
+PrivacyUrl: https://voicemeet.net/legal/privacy
+Author: kjxbyz
+PackageName: VoiceMeet
+PackageUrl: https://voicemeet.net
+License: GPL-3.0-only
+LicenseUrl: https://voicemeet.net/license
+Copyright: Copyright (c) 2025 VoiceMeet
+ShortDescription: Rencontrez le monde grâce à la voix.
+Description: |
+  VoiceMeet est une toute nouvelle application sociale vocale qui vous permet de dépasser les barrières de l'écran et de créer des liens authentiques grâce à la voix.
+
+  Fonctionnalités clés:
+  
+  - Mise en relation vocale – Découvrez des voix qui vous correspondent: La mise en relation vocale en temps réel vous permet de rencontrer de nouveaux amis simplement avec votre voix.
+  - Salons vocaux – Discutez librement, n'importe où, n'importe quand: Rejoignez des salons vocaux thématiques et parlez de jeux, de musique, de relations ou de tout ce qui vous passionne.
+  - Fiches vocales – Exprimez-vous avec votre voix: Partagez une courte présentation vocale pour montrer votre personnalité et votre chaleur humaine.
+  - Chuchotements privés – Conversations vocales individuelles: Des appels privés de haute qualité et à faible latence pour des échanges sécurisés et intimes.
+  - Filtres vocaux – Créez votre propre son: Jouez avec les effets et les filtres vocaux pour personnaliser votre intonation et votre style.
+  - Flux vocal – Explorez un univers sonore: Parcourez les publications vocales, interagissez avec les autres et trouvez des sujets qui vous inspirent.
+  
+  Que vous souhaitiez vous faire de nouveaux amis, explorer des sujets qui vous intéressent ou découvrir des voix qui vous correspondent, VoiceMeet crée un espace d'échange vocal libre, chaleureux et stimulant.
+  
+  Rejoignez-nous dès maintenant et commencez votre aventure vocale!
+Tags:
+  - voicemeet
+  - social
+ReleaseNotesUrl: https://voicemeet.net/changelog
+ManifestType: locale
+ManifestVersion: 1.12.0
