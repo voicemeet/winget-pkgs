@@ -1,0 +1,38 @@
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: VoiceMeet.VoiceMeet.Beta
+PackageVersion: 0.0.7.8
+PackageLocale: en-US
+Publisher: VoiceMeet
+PublisherUrl: https://voicemeet.net
+PublisherSupportUrl: https://voicemeet.net/support
+PrivacyUrl: https://voicemeet.net/legal/privacy
+Author: kjxbyz
+PackageName: VoiceMeet Beta
+PackageUrl: https://voicemeet.net
+License: GPL-3.0-only
+LicenseUrl: https://voicemeet.net/license
+Copyright: Copyright (c) 2025 VoiceMeet
+ShortDescription: Meet the World through Voice.
+Description: |
+  VoiceMeet is a brand-new voice-based social app that helps you break the screen barrier and build authentic connections through voice.
+
+  Key Features:
+
+  - Voice Match – Discover voices you vibe with: Real-time voice matching lets you meet new friends with just your voice.
+  - Voice Rooms – Chat freely, anytime, anywhere: Join themed voice rooms and talk about games, music, relationships, or anything you love.
+  - Voice Cards – Let your voice tell your story: Share a short voice intro to show your personality and warmth.
+  - Private Whisper – One-on-one voice chats: Low-latency, high-quality private calls that feel safe and intimate.
+  - Voice Filters – Create your unique sound: Play with voice effects and filters to enhance your tone and style.
+  - Voice Feed – Explore a world of sounds: Scroll through voice posts, interact with others, and find topics that resonate with you.
+  
+  Whether you're making new friends, exploring topics of interest, or discovering voices that resonate with you, VoiceMeet creates a free, warm, and engaging space for voice interaction.
+  
+  Join now and start your voice journey!
+Tags:
+  - voicemeet
+  - social
+ReleaseNotesUrl: https://voicemeet.net/changelog
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0

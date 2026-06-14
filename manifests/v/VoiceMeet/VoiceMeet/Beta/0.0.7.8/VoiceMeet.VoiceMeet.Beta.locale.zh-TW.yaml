@@ -1,0 +1,38 @@
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
+
+PackageIdentifier: VoiceMeet.VoiceMeet.Beta
+PackageVersion: 0.0.7.8
+PackageLocale: zh-TW
+Publisher: VoiceMeet
+PublisherUrl: https://voicemeet.net
+PublisherSupportUrl: https://voicemeet.net/support
+PrivacyUrl: https://voicemeet.net/legal/privacy
+Author: kjxbyz
+PackageName: VoiceMeet Beta
+PackageUrl: https://voicemeet.net
+License: GPL-3.0-only
+LicenseUrl: https://voicemeet.net/license
+Copyright: Copyright (c) 2025 VoiceMeet
+ShortDescription: 透過聲音與世界對話。
+Description: |
+  聲遇是一款全新的語音社交應用，幫助您打破螢幕壁壘，透過語音建立真誠的連結。
+  
+  主要功能：
+  
+  - 語音配對 – 發現與您心意相通的聲音：即時語音配對功能讓您僅憑聲音就能結識新朋友。
+  - 語音聊天室 – 隨時隨地暢聊：加入主題語音聊天室，暢聊遊戲、音樂、情緒或任何您喜愛的話題。
+  - 語音卡片 – 用聲音說您的故事：分享一段簡短的語音介紹，展現您的個性和熱情。
+  - 私密語音 – 一對一語音聊天：低延遲、高品質的私密通話，讓您倍感安全與親密。
+  - 語音濾鏡 – 打造您的專屬聲音：使用語音特效和濾鏡，提升您的音調和風格。
+  - 語音動態 – 探索聲音的世界：瀏覽語音帖子，與其他用戶互動，找到與您產生共鳴的話題。
+  
+  無論你是想結交新朋友、探索感興趣的話題，或是尋找與你產生共鳴的聲音，聲遇都能為你打造一個自由、溫馨且充滿活力的語音互動空間。
+  
+  立即加入，開啟你的語音之旅！
+Tags:
+  - voicemeet
+  - social
+ReleaseNotesUrl: https://voicemeet.net/changelog
+ManifestType: locale
+ManifestVersion: 1.12.0
